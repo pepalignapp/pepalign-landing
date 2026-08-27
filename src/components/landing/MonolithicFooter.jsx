@@ -19,8 +19,8 @@ export default function MonolithicFooter() {
           </div>
           <nav className="flex flex-wrap gap-x-8 gap-y-3">
             {[
-              { label: "Privacy", href: "#" },
-              { label: "Terms", href: "#" },
+              { label: "Privacy", href: "/privacy.html" },
+              { label: "Terms", href: "/terms.html" },
               { label: "Contact", href: "mailto:support@pepalign.app" },
             ].map((l) => (
               <a
