@@ -159,12 +159,6 @@ export default function CommandCenter() {
 
       <div className="relative z-10 mx-auto w-full max-w-3xl px-6 md:px-10">
         <div className="mb-10 text-center">
-          <span
-            className="text-[11px] uppercase tracking-[0.3em] text-[#00F5FF]"
-            style={{ fontFamily: "ui-monospace, SFMono-Regular, Menlo, monospace" }}
-          >
-            // Command Center
-          </span>
           <h2
             className="mt-4 font-display font-bold uppercase leading-[0.95] text-[#F9F9F9]"
             style={{ fontSize: "clamp(2rem, 6vw, 4.5rem)", letterSpacing: "-0.04em" }}
@@ -205,23 +199,6 @@ export default function CommandCenter() {
               {focused ? "● ACTIVE" : "○ STANDBY"}
             </span>
           </div>
-          <div className="pointer-events-none absolute -bottom-px left-4 translate-y-1/2 bg-[#121212] px-2">
-            <span
-              className="text-[10px] uppercase tracking-[0.25em] text-[#5a5a5a]"
-              style={{ fontFamily: "ui-monospace, SFMono-Regular, Menlo, monospace" }}
-            >
-              PROTOCOL_ID: P-01
-            </span>
-          </div>
-          <div className="pointer-events-none absolute -bottom-px right-4 translate-y-1/2 bg-[#121212] px-2">
-            <span
-              className="text-[10px] uppercase tracking-[0.25em] text-[#5a5a5a]"
-              style={{ fontFamily: "ui-monospace, SFMono-Regular, Menlo, monospace" }}
-            >
-              ENCRYPTION: AES-256
-            </span>
-          </div>
-
           {/* HTML EMBED BLOCK — custom Loops.so email form injected verbatim */}
           <div
             ref={containerRef}

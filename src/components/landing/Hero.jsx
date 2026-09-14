@@ -63,9 +63,9 @@ export default function Hero() {
             transition: "opacity 0.9s ease, transform 0.9s ease",
           }}
         >
-          TRACK, UNDERSTAND,
+          YOUR PROTOCOL,
           <br />
-          <span className="text-[#CCFF00]">THRIVE.</span>
+          <span className="text-[#CCFF00]">SIMPLIFIED.</span>
         </h1>
       </div>
 

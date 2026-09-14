@@ -1,4 +1,4 @@
-import { Bell, BookOpen, LineChart, ShieldCheck } from "lucide-react";
+import { Bell, Bot, LineChart, ShieldCheck } from "lucide-react";
 
 const modules = [
   {
@@ -18,18 +18,18 @@ const modules = [
     span: "",
   },
   {
-    icon: BookOpen,
-    label: "Reference Library",
-    title: "Understand your compounds.",
-    desc: "Access an integrated library to read, learn, and reference details about your stack.",
+    icon: Bot,
+    label: "AI Protocol Coach",
+    title: "Meet Pep-i, your smart stack assistant.",
+    desc: "Ask questions, get insights on peptide research, and stay on top of your protocol with 24/7 AI guidance.",
     accent: "#00F5FF",
     span: "",
   },
   {
     icon: ShieldCheck,
     label: "Private & Secure",
-    title: "Encrypted by default.",
-    desc: "Your logs and personal data are strictly yours. Track securely with complete peace of mind.",
+    title: "Private & Discrete.",
+    desc: "Your logs and protocol data belong exclusively to you. Track with complete peace of mind.",
     accent: "#CCFF00",
     span: "md:col-span-2",
   },
