@@ -64,8 +64,8 @@ export default function Hero() {
           }}
         >
         YOUR PROTOCOL,
-<br />
-<span className="text-[#CCFF00]">SIMPLIFIED.</span>
+      <br />
+      <span className="text-[#CCFF00]">SIMPLIFIED.</span>
         </h1>
       </div>
 
