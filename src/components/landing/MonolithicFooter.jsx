@@ -21,7 +21,7 @@ export default function MonolithicFooter() {
             {[
               { label: "Privacy", href: "/privacy.html" },
               { label: "Terms", href: "/terms.html" },
-              { label: "Contact", href: "mailto:support@pepalign.app" },
+              { label: "Contact", href: "/contact" },
             ].map((l) => (
               <a
                 key={l.label}
