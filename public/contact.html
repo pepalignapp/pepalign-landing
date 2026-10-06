@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | PepAlign</title>
+    <meta name="description" content="Contact Pepalign support, make a privacy request, or reach us by phone.">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <style id="pepalign-legal-theme">
+      /* Same dark theme as /privacy and /terms. */
+      :root {
+        color-scheme: dark;
+        --bg: #080c0b;
+        --text: #d9e2e0;
+        --heading: #ffffff;
+        --muted: #8a9e9b;
+        --accent: #2dd4bf;
+        --accent-hover: #5eead4;
+        --teal-dark: #134E4A;
+        --border: rgba(255, 255, 255, 0.14);
+        --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      }
+      html { background: var(--bg); -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+      body.legal-page {
+        background: var(--bg);
+        color: var(--text);
+        font-family: var(--font);
+        font-size: 16px;
+        line-height: 1.7;
+        max-width: 42rem;
+        margin: 0 auto;
+        padding: 1.5rem 1.25rem 3rem;
+      }
+      @media (min-width: 768px) {
+        body.legal-page { padding: 3rem 2rem 4rem; }
+      }
+      ::selection { background: rgba(45, 212, 191, 0.3); color: #ffffff; }
+
+      .legal-back {
+        display: inline-block;
+        margin-bottom: 2rem;
+        color: var(--accent);
+        font-weight: 600;
+        text-decoration: none;
+      }
+      .legal-back:hover, .legal-back:focus-visible { color: var(--accent-hover); text-decoration: underline; }
+
+      h1, h2 { color: var(--heading); font-weight: 700; }
+      h1 { font-size: 30px; line-height: 1.25; letter-spacing: -0.01em; margin: 0 0 0.5rem; }
+      h2 { font-size: 22px; line-height: 1.35; margin: 2.5rem 0 0.75rem; }
+      @media (max-width: 480px) {
+        h1 { font-size: 26px; }
+        h2 { font-size: 20px; }
+      }
+      p { margin: 0 0 1rem; overflow-wrap: break-word; }
+      .muted { color: var(--muted); }
+
+      body.legal-page a {
+        color: var(--accent);
+        text-decoration-color: rgba(45, 212, 191, 0.45);
+        text-underline-offset: 2px;
+      }
+      body.legal-page a:hover, body.legal-page a:focus-visible { color: var(--accent-hover); text-decoration-color: currentColor; }
+
+      .contact-card {
+        margin: 1rem 0;
+        padding: 1.25rem;
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        background: rgba(19, 78, 74, 0.18);
+      }
+      body.legal-page a.contact-button {
+        display: inline-block;
+        margin: 0.25rem 0 1rem;
+        padding: 0.75rem 1.25rem;
+        border: 1px solid var(--accent);
+        border-radius: 10px;
+        background: var(--teal-dark);
+        color: #ffffff;
+        font-weight: 600;
+        text-decoration: none;
+        overflow-wrap: anywhere;
+      }
+      body.legal-page a.contact-button:hover,
+      body.legal-page a.contact-button:focus-visible { background: #115e59; color: #ffffff; }
+      .contact-card p:last-child { margin-bottom: 0; }
+
+      .operator { margin-top: 2.5rem; font-size: 14px; color: var(--muted); }
+
+      .legal-footer {
+        margin-top: 4rem;
+        padding-top: 1.5rem;
+        border-top: 1px solid var(--border);
+        color: var(--muted);
+        font-size: 12px;
+        text-align: center;
+      }
+      .legal-footer-nav { margin-bottom: 0.75rem; font-size: 14px; }
+      .legal-footer-nav a { margin: 0 0.6rem; }
+    </style>
+</head>
+<body class="legal-page">
+    <a href="/" class="legal-back">&larr; Back to Home</a>
+
+    <main>
+      <h1>Contact Pepalign</h1>
+      <p class="muted">Questions, feedback, or account help — we're here.</p>
+
+      <h2>Support</h2>
+      <div class="contact-card">
+        <a class="contact-button" href="mailto:pepalign.support@gmail.com">Email pepalign.support@gmail.com</a>
+        <p>We usually reply within 2 business days. Pepalign+ members get priority.</p>
+      </div>
+
+      <h2>Privacy requests</h2>
+      <p>To access, correct, or delete your personal information, email us at <a href="mailto:pepalign.support@gmail.com?subject=Privacy%20Request">pepalign.support@gmail.com</a> with the subject 'Privacy Request'.</p>
+      <p>You can also delete your account anytime in the app: <strong>Profile &rarr; Settings &rarr; Delete account</strong>. Deleting your account permanently removes your data.</p>
+
+      <h2>Phone</h2>
+      <p><a href="tel:+12134951629">2134951629</a></p>
+
+      <h2>Legal</h2>
+      <p>Read our <a href="/privacy">Privacy Policy</a> and <a href="/terms">Terms of Use</a>.</p>
+
+      <p class="operator">Pepalign is operated by Alec Miranda d/b/a Pepalign.</p>
+    </main>
+
+    <footer class="legal-footer">
+        <nav class="legal-footer-nav" aria-label="Legal">
+            <a href="/privacy">Privacy</a>
+            <a href="/terms">Terms</a>
+            <a href="/contact">Contact</a>
+        </nav>
+        &copy; 2026 PepAlign. All rights reserved.
+    </footer>
+</body>
+</html>
