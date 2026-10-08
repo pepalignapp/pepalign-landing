@@ -22,6 +22,7 @@ export default function MonolithicFooter() {
               { label: "Privacy", href: "/privacy.html" },
               { label: "Terms", href: "/terms.html" },
               { label: "Contact", href: "/contact" },
+              { label: "Consumer Health Data Privacy Policy", href: "/health-privacy" },
             ].map((l) => (
               <a
                 key={l.label}

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consumer Health Data Privacy Policy | PepAlign</title>
+    <style id="pepalign-legal-theme">
+      /* Pepalign dark theme for the Termly-generated legal pages. Styling only — the legal text is untouched.
+         Termly ships its own !important colors (black headings, grey body, blue links) and inline styles,
+         so every override below is scoped under body.legal-page and marked !important to win over both. */
+      :root {
+        color-scheme: dark;
+        --bg: #080c0b;
+        --text: #d9e2e0;
+        --heading: #ffffff;
+        --muted: #8a9e9b;
+        --accent: #2dd4bf;
+        --accent-hover: #5eead4;
+        --border: rgba(255, 255, 255, 0.14);
+        --font: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      }
+      html { background: var(--bg); -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+      body.legal-page {
+        background: var(--bg);
+        color: var(--text);
+        font-family: var(--font);
+        line-height: 1.7;
+        max-width: 42rem; /* readable line length (~75 characters) */
+        margin: 0 auto;
+        padding: 1.5rem 1.25rem 3rem;
+      }
+      @media (min-width: 768px) {
+        body.legal-page { padding: 3rem 2rem 4rem; }
+      }
+      ::selection { background: rgba(45, 212, 191, 0.3); color: #ffffff; }
+
+      /* Back to Home */
+      .legal-back {
+        display: inline-block;
+        margin-bottom: 2rem;
+        color: var(--accent);
+        font-weight: 600;
+        text-decoration: none;
+      }
+      .legal-back:hover, .legal-back:focus-visible { color: var(--accent-hover); text-decoration: underline; }
+
+      /* Body copy: readable off-white, comfortable size and line height, long URLs wrap on phones */
+      body.legal-page [data-custom-class='body'],
+      body.legal-page [data-custom-class='body'] * {
+        color: var(--text) !important;
+        font-family: var(--font) !important;
+        font-size: 16px !important;
+        line-height: 1.7 !important;
+        background: transparent !important;
+        overflow-wrap: break-word;
+      }
+
+      /* Headings and bold text: bold white */
+      body.legal-page [data-custom-class='body'] :is(h1, h2, h3, h4, strong, b),
+      body.legal-page [data-custom-class='body'] :is(h1, h2, h3, h4, strong, b) *,
+      body.legal-page [data-custom-class='body'] :is([data-custom-class='title'], [data-custom-class='heading_1'], [data-custom-class='heading_2']),
+      body.legal-page [data-custom-class='body'] :is([data-custom-class='title'], [data-custom-class='heading_1'], [data-custom-class='heading_2']) * {
+        color: var(--heading) !important;
+        font-weight: 700 !important;
+      }
+      body.legal-page [data-custom-class='body'] h1,
+      body.legal-page [data-custom-class='body'] h1 *,
+      body.legal-page [data-custom-class='body'] [data-custom-class='title'],
+      body.legal-page [data-custom-class='body'] [data-custom-class='title'] * {
+        font-size: 30px !important;
+        line-height: 1.25 !important;
+        letter-spacing: -0.01em;
+      }
+      body.legal-page [data-custom-class='body'] h1 { margin: 0 0 0.5rem; }
+      body.legal-page [data-custom-class='body'] h2,
+      body.legal-page [data-custom-class='body'] h2 *,
+      body.legal-page [data-custom-class='body'] [data-custom-class='heading_1'],
+      body.legal-page [data-custom-class='body'] [data-custom-class='heading_1'] * {
+        font-size: 22px !important;
+        line-height: 1.35 !important;
+      }
+      body.legal-page [data-custom-class='body'] h2 { margin: 2.5rem 0 0.75rem; }
+      body.legal-page [data-custom-class='body'] h3,
+      body.legal-page [data-custom-class='body'] h3 *,
+      body.legal-page [data-custom-class='body'] [data-custom-class='heading_2'],
+      body.legal-page [data-custom-class='body'] [data-custom-class='heading_2'] * {
+        font-size: 18px !important;
+        line-height: 1.4 !important;
+      }
+      body.legal-page [data-custom-class='body'] h3 { margin: 1.75rem 0 0.5rem; }
+      @media (max-width: 480px) {
+        body.legal-page [data-custom-class='body'] h1,
+        body.legal-page [data-custom-class='body'] h1 *,
+        body.legal-page [data-custom-class='body'] [data-custom-class='title'],
+        body.legal-page [data-custom-class='body'] [data-custom-class='title'] * { font-size: 26px !important; }
+        body.legal-page [data-custom-class='body'] h2,
+        body.legal-page [data-custom-class='body'] h2 *,
+        body.legal-page [data-custom-class='body'] [data-custom-class='heading_1'],
+        body.legal-page [data-custom-class='body'] [data-custom-class='heading_1'] * { font-size: 20px !important; }
+      }
+
+      /* "Last updated" line */
+      body.legal-page [data-custom-class='body'] [data-custom-class='subtitle'],
+      body.legal-page [data-custom-class='body'] [data-custom-class='subtitle'] * {
+        color: var(--muted) !important;
+        font-size: 14px !important;
+        font-weight: 600 !important;
+      }
+
+      /* Links: teal accent, never default blue */
+      body.legal-page a,
+      body.legal-page a *,
+      body.legal-page [data-custom-class='body'] a,
+      body.legal-page [data-custom-class='body'] a *,
+      body.legal-page [data-custom-class='body'] [data-custom-class='link'],
+      body.legal-page [data-custom-class='body'] [data-custom-class='link'] * {
+        color: var(--accent) !important;
+        text-decoration-color: rgba(45, 212, 191, 0.45);
+        text-underline-offset: 2px;
+      }
+      body.legal-page [data-custom-class='body'] a:hover,
+      body.legal-page [data-custom-class='body'] a:hover *,
+      body.legal-page [data-custom-class='body'] a:focus-visible { color: var(--accent-hover) !important; text-decoration-color: currentColor; }
+
+      /* Lists */
+      body.legal-page [data-custom-class='body'] :is(ul, ol) { padding-left: 1.5rem !important; margin: 0.5rem 0; }
+      body.legal-page [data-custom-class='body'] li { margin: 0.25rem 0; }
+      body.legal-page [data-custom-class='body'] li::marker { color: var(--muted); }
+
+      /* Tables (Privacy Policy categories): visible borders on dark; columns fit the screen on phones */
+      body.legal-page [data-custom-class='body'] table {
+        width: 100% !important;
+        border-collapse: collapse;
+        margin: 1rem 0;
+      }
+      body.legal-page [data-custom-class='body'] :is(td, th) {
+        border: 1px solid var(--border) !important;
+        padding: 0.6rem 0.75rem !important;
+        vertical-align: top;
+      }
+      @media (max-width: 480px) {
+        body.legal-page [data-custom-class='body'] :is(td, th),
+        body.legal-page [data-custom-class='body'] :is(td, th) * { font-size: 14px !important; }
+        body.legal-page [data-custom-class='body'] :is(td, th) { padding: 0.5rem !important; }
+      }
+
+      .legal-footer {
+        margin-top: 4rem;
+        padding-top: 1.5rem;
+        border-top: 1px solid var(--border);
+        color: var(--muted);
+        font-size: 12px;
+        text-align: center;
+      }
+      .legal-footer-nav { display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem 1.2rem; margin-bottom: 0.75rem; font-size: 14px; }
+    </style>
+</head>
+<body class="legal-page">
+    <a href="/" class="legal-back">&larr; Back to Home</a>
+
+<div data-custom-class="body">
+<h1>CONSUMER HEALTH DATA PRIVACY POLICY</h1>
+<div data-custom-class="subtitle">Last Updated: October 07, 2026</div>
+
+<p>This Consumer Health Data Privacy Policy supplements the Pepalign <a data-custom-class="link" href="/privacy">Privacy Policy</a> and applies specifically to personal health and wellness information regulated under the Washington My Health My Data Act (MHMDA), Nevada SB 370, and applicable state consumer privacy statutes.</p>
+
+<h2>1. Categories of Consumer Health Data We Collect</h2>
+<p>Pepalign collects only the information you voluntarily input into the application to maintain your personal wellness records, including:</p>
+<ul>
+<li>Health, wellness, and peptide protocol entries (compound names, doses, schedules, and your own notes).</li>
+<li>Body metrics (weight, measurements, and check-in logs).</li>
+<li>User-uploaded progress photographs.</li>
+<li>Text inputs and queries submitted to interactive AI features (Pep-i and Describe Your Protocol).</li>
+</ul>
+
+<h2>2. Purpose of Collection and How We Use Health Data</h2>
+<p>We collect and process your consumer health data solely as necessary to provide the services you request, including:</p>
+<ul>
+<li>Displaying your schedules, calculating reconstitution math, and triggering local on-device reminders.</li>
+<li>Rendering visual logs, body metric charts, and user-generated PDF progress reports.</li>
+<li>Processing prompt inputs in real time through our AI subprocessor (Google Cloud / Gemini API) to populate forms and answer user queries.</li>
+</ul>
+<p><strong>We do not sell, rent, monetize, or share your consumer health data with data brokers, advertisers, or third-party marketing networks.</strong></p>
+
+<h2>3. Third Parties and Subprocessors</h2>
+<p>To operate Pepalign, we disclose health data strictly to contracted service providers who process data on our behalf under confidentiality agreements:</p>
+<ul>
+<li><strong>Google Cloud Platform / Firebase:</strong> Secure database storage, authentication, and encrypted cloud asset storage.</li>
+<li><strong>Google Cloud AI (Gemini API):</strong> Real-time processing of user-submitted AI prompts. Inputs are processed to provide the feature and are not used to train AI models.</li>
+<li><strong>RevenueCat &amp; Apple:</strong> In-app purchase verification and subscription status management (does not receive health logs).</li>
+</ul>
+
+<h2>4. Geofencing Restriction</h2>
+<p>Pepalign does not collect precise GPS geolocation and does not implement or use geofences around facilities providing health services to identify, track, or collect data from consumers.</p>
+
+<h2>5. Your Rights and How to Exercise Them</h2>
+<p>Under Washington MHMDA, Nevada SB 370, and similar laws, you have the right to:</p>
+<ul>
+<li>Confirm whether we collect, process, or disclose your consumer health data.</li>
+<li>Access the specific health data we maintain about you.</li>
+<li>Withdraw consent for the continued collection or processing of your health data.</li>
+<li>Request the permanent deletion of your consumer health data and account.</li>
+</ul>
+<p>You can delete your account and all stored health logs inside the app at Profile &rarr; Settings &rarr; Delete account. You may also submit requests or appeal decisions by contacting us at <a data-custom-class="link" href="mailto:support@pepalign.app">support@pepalign.app</a>.</p>
+
+<h2>6. Contact Us</h2>
+<p>Alec Miranda d/b/a Pepalign<br>
+751 S Weir Canyon Rd, Ste 157-1069<br>
+Anaheim Hills, CA 92808, United States<br>
+Email: <a data-custom-class="link" href="mailto:support@pepalign.app">support@pepalign.app</a><br>
+Phone: <a data-custom-class="link" href="tel:+12134951629">(213) 495-1629</a></p>
+</div>
+
+    <footer class="legal-footer">
+        <nav class="legal-footer-nav" aria-label="Legal">
+            <a href="/privacy">Privacy</a>
+            <a href="/terms">Terms</a>
+            <a href="/contact">Contact</a>
+            <a href="/health-privacy">Consumer Health Data Privacy Policy</a>
+        </nav>
+        &copy; 2026 PepAlign. All rights reserved.
+    </footer>
+</body>
+</html>
